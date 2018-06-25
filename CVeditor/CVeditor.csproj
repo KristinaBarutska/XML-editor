@@ -141,25 +141,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\CVdatabase.mdf" />
-    <Content Include="App_Data\CVdatabase_log.ldf">
-      <DependentUpon>CVdatabase.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="CVmodel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>CVmodel.Context.cs</LastGenOutput>
-      <DependentUpon>CVmodel.edmx</DependentUpon>
-    </Content>
-    <Content Include="CVmodel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>CVmodel.edmx</DependentUpon>
-      <LastGenOutput>CVmodel.cs</LastGenOutput>
-    </Content>
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -174,13 +160,6 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <EntityDeploy Include="CVmodel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>CVmodel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="CVmodel.edmx.diagram">
-      <DependentUpon>CVmodel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -220,21 +199,6 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="CVmodel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CVmodel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CVmodel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CVmodel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CVmodel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CVmodel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -260,9 +224,6 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Table.cs">
-      <DependentUpon>CVmodel.tt</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
