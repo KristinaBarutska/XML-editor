@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml"?>
+<cv>
+	<id>42</id>
+	<me>
+		Donald F Duck
+		1313 Webfoot Walk in Duckburg, Calisota, 12345
+		telephone 1-800-BAD-DUCK
+		email="donald.duck@disney.com"
+		One of the most popular of the Disney cartoon characters, Donald Duck made his debut in the Silly Symphony cartoon "The Wise Little Hen" on June 9, 1934. His fiery temper endeared him to audiences, and in the 1940s he <strong>surpassed Mickey Mouse in the number of cartoons reaching the theaters</strong>. Eventually, there were <strong>128</strong> Donald Duck cartoons, but he also appeared in a number of others with Mickey Mouse, Goofy, and Pluto. A daily Donald Duck newspaper comic strip began on February 7, 1938.
+	</me>
+	<education>	
+			Calisota High School for Ducks
+			from 1999 to 2000  
+	</education>
+	<employment>
+			"Square Enix"
+			job_title="Kingdom Hearts"
+			from Jun 2002 to Sep 2002	
+	</employment>
+</cv>
